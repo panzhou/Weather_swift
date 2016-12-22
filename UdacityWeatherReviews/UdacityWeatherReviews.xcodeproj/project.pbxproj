@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C329A9241E0BB1A9004F55C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329A9231E0BB1A9004F55C8 /* AppDelegate.swift */; };
+		C329A9261E0BB1A9004F55C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329A9251E0BB1A9004F55C8 /* ViewController.swift */; };
+		C329A9291E0BB1A9004F55C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C329A9271E0BB1A9004F55C8 /* Main.storyboard */; };
+		C329A92B1E0BB1A9004F55C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C329A92A1E0BB1A9004F55C8 /* Assets.xcassets */; };
+		C329A92E1E0BB1A9004F55C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C329A92C1E0BB1A9004F55C8 /* LaunchScreen.storyboard */; };
+		C329A9391E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329A9381E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.swift */; };
+		C329A9441E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329A9431E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C329A9351E0BB1A9004F55C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C329A9181E0BB1A9004F55C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C329A91F1E0BB1A9004F55C8;
+			remoteInfo = UdacityWeatherReviews;
+		};
+		C329A9401E0BB1A9004F55C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C329A9181E0BB1A9004F55C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C329A91F1E0BB1A9004F55C8;
+			remoteInfo = UdacityWeatherReviews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C329A9201E0BB1A9004F55C8 /* UdacityWeatherReviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdacityWeatherReviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C329A9231E0BB1A9004F55C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C329A9251E0BB1A9004F55C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C329A9281E0BB1A9004F55C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C329A92A1E0BB1A9004F55C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C329A92D1E0BB1A9004F55C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C329A92F1E0BB1A9004F55C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C329A9341E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdacityWeatherReviewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C329A9381E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityWeatherReviewsTests.swift; sourceTree = "<group>"; };
+		C329A93A1E0BB1A9004F55C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C329A93F1E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdacityWeatherReviewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C329A9431E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityWeatherReviewsUITests.swift; sourceTree = "<group>"; };
+		C329A9451E0BB1A9004F55C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C329A91D1E0BB1A9004F55C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C329A9311E0BB1A9004F55C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C329A93C1E0BB1A9004F55C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C329A9171E0BB1A9004F55C8 = {
+			isa = PBXGroup;
+			children = (
+				C329A9221E0BB1A9004F55C8 /* UdacityWeatherReviews */,
+				C329A9371E0BB1A9004F55C8 /* UdacityWeatherReviewsTests */,
+				C329A9421E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests */,
+				C329A9211E0BB1A9004F55C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C329A9211E0BB1A9004F55C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C329A9201E0BB1A9004F55C8 /* UdacityWeatherReviews.app */,
+				C329A9341E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.xctest */,
+				C329A93F1E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C329A9221E0BB1A9004F55C8 /* UdacityWeatherReviews */ = {
+			isa = PBXGroup;
+			children = (
+				C329A9231E0BB1A9004F55C8 /* AppDelegate.swift */,
+				C329A9251E0BB1A9004F55C8 /* ViewController.swift */,
+				C329A9271E0BB1A9004F55C8 /* Main.storyboard */,
+				C329A92A1E0BB1A9004F55C8 /* Assets.xcassets */,
+				C329A92C1E0BB1A9004F55C8 /* LaunchScreen.storyboard */,
+				C329A92F1E0BB1A9004F55C8 /* Info.plist */,
+			);
+			path = UdacityWeatherReviews;
+			sourceTree = "<group>";
+		};
+		C329A9371E0BB1A9004F55C8 /* UdacityWeatherReviewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C329A9381E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.swift */,
+				C329A93A1E0BB1A9004F55C8 /* Info.plist */,
+			);
+			path = UdacityWeatherReviewsTests;
+			sourceTree = "<group>";
+		};
+		C329A9421E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C329A9431E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.swift */,
+				C329A9451E0BB1A9004F55C8 /* Info.plist */,
+			);
+			path = UdacityWeatherReviewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C329A91F1E0BB1A9004F55C8 /* UdacityWeatherReviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C329A9481E0BB1A9004F55C8 /* Build configuration list for PBXNativeTarget "UdacityWeatherReviews" */;
+			buildPhases = (
+				C329A91C1E0BB1A9004F55C8 /* Sources */,
+				C329A91D1E0BB1A9004F55C8 /* Frameworks */,
+				C329A91E1E0BB1A9004F55C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdacityWeatherReviews;
+			productName = UdacityWeatherReviews;
+			productReference = C329A9201E0BB1A9004F55C8 /* UdacityWeatherReviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C329A9331E0BB1A9004F55C8 /* UdacityWeatherReviewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C329A94B1E0BB1A9004F55C8 /* Build configuration list for PBXNativeTarget "UdacityWeatherReviewsTests" */;
+			buildPhases = (
+				C329A9301E0BB1A9004F55C8 /* Sources */,
+				C329A9311E0BB1A9004F55C8 /* Frameworks */,
+				C329A9321E0BB1A9004F55C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C329A9361E0BB1A9004F55C8 /* PBXTargetDependency */,
+			);
+			name = UdacityWeatherReviewsTests;
+			productName = UdacityWeatherReviewsTests;
+			productReference = C329A9341E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C329A93E1E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C329A94E1E0BB1A9004F55C8 /* Build configuration list for PBXNativeTarget "UdacityWeatherReviewsUITests" */;
+			buildPhases = (
+				C329A93B1E0BB1A9004F55C8 /* Sources */,
+				C329A93C1E0BB1A9004F55C8 /* Frameworks */,
+				C329A93D1E0BB1A9004F55C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C329A9411E0BB1A9004F55C8 /* PBXTargetDependency */,
+			);
+			name = UdacityWeatherReviewsUITests;
+			productName = UdacityWeatherReviewsUITests;
+			productReference = C329A93F1E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C329A9181E0BB1A9004F55C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhouPan;
+				TargetAttributes = {
+					C329A91F1E0BB1A9004F55C8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6RQWAK8AT7;
+						ProvisioningStyle = Automatic;
+					};
+					C329A9331E0BB1A9004F55C8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6RQWAK8AT7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C329A91F1E0BB1A9004F55C8;
+					};
+					C329A93E1E0BB1A9004F55C8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6RQWAK8AT7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C329A91F1E0BB1A9004F55C8;
+					};
+				};
+			};
+			buildConfigurationList = C329A91B1E0BB1A9004F55C8 /* Build configuration list for PBXProject "UdacityWeatherReviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C329A9171E0BB1A9004F55C8;
+			productRefGroup = C329A9211E0BB1A9004F55C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C329A91F1E0BB1A9004F55C8 /* UdacityWeatherReviews */,
+				C329A9331E0BB1A9004F55C8 /* UdacityWeatherReviewsTests */,
+				C329A93E1E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C329A91E1E0BB1A9004F55C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C329A92E1E0BB1A9004F55C8 /* LaunchScreen.storyboard in Resources */,
+				C329A92B1E0BB1A9004F55C8 /* Assets.xcassets in Resources */,
+				C329A9291E0BB1A9004F55C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C329A9321E0BB1A9004F55C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C329A93D1E0BB1A9004F55C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C329A91C1E0BB1A9004F55C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C329A9261E0BB1A9004F55C8 /* ViewController.swift in Sources */,
+				C329A9241E0BB1A9004F55C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C329A9301E0BB1A9004F55C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C329A9391E0BB1A9004F55C8 /* UdacityWeatherReviewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C329A93B1E0BB1A9004F55C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C329A9441E0BB1A9004F55C8 /* UdacityWeatherReviewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C329A9361E0BB1A9004F55C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C329A91F1E0BB1A9004F55C8 /* UdacityWeatherReviews */;
+			targetProxy = C329A9351E0BB1A9004F55C8 /* PBXContainerItemProxy */;
+		};
+		C329A9411E0BB1A9004F55C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C329A91F1E0BB1A9004F55C8 /* UdacityWeatherReviews */;
+			targetProxy = C329A9401E0BB1A9004F55C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C329A9271E0BB1A9004F55C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C329A9281E0BB1A9004F55C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C329A92C1E0BB1A9004F55C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C329A92D1E0BB1A9004F55C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C329A9461E0BB1A9004F55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C329A9471E0BB1A9004F55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C329A9491E0BB1A9004F55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RQWAK8AT7;
+				INFOPLIST_FILE = UdacityWeatherReviews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouPan.UdacityWeatherReviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C329A94A1E0BB1A9004F55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RQWAK8AT7;
+				INFOPLIST_FILE = UdacityWeatherReviews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouPan.UdacityWeatherReviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C329A94C1E0BB1A9004F55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6RQWAK8AT7;
+				INFOPLIST_FILE = UdacityWeatherReviewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouPan.UdacityWeatherReviewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UdacityWeatherReviews.app/UdacityWeatherReviews";
+			};
+			name = Debug;
+		};
+		C329A94D1E0BB1A9004F55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6RQWAK8AT7;
+				INFOPLIST_FILE = UdacityWeatherReviewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouPan.UdacityWeatherReviewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UdacityWeatherReviews.app/UdacityWeatherReviews";
+			};
+			name = Release;
+		};
+		C329A94F1E0BB1A9004F55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RQWAK8AT7;
+				INFOPLIST_FILE = UdacityWeatherReviewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouPan.UdacityWeatherReviewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UdacityWeatherReviews;
+			};
+			name = Debug;
+		};
+		C329A9501E0BB1A9004F55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RQWAK8AT7;
+				INFOPLIST_FILE = UdacityWeatherReviewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouPan.UdacityWeatherReviewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UdacityWeatherReviews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C329A91B1E0BB1A9004F55C8 /* Build configuration list for PBXProject "UdacityWeatherReviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C329A9461E0BB1A9004F55C8 /* Debug */,
+				C329A9471E0BB1A9004F55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C329A9481E0BB1A9004F55C8 /* Build configuration list for PBXNativeTarget "UdacityWeatherReviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C329A9491E0BB1A9004F55C8 /* Debug */,
+				C329A94A1E0BB1A9004F55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C329A94B1E0BB1A9004F55C8 /* Build configuration list for PBXNativeTarget "UdacityWeatherReviewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C329A94C1E0BB1A9004F55C8 /* Debug */,
+				C329A94D1E0BB1A9004F55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C329A94E1E0BB1A9004F55C8 /* Build configuration list for PBXNativeTarget "UdacityWeatherReviewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C329A94F1E0BB1A9004F55C8 /* Debug */,
+				C329A9501E0BB1A9004F55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C329A9181E0BB1A9004F55C8 /* Project object */;
+}
